@@ -36,14 +36,30 @@ a {
 
 main {
   width: 960px;
-  margin: 30px auto;
-  display: grid;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 main li {
   list-style-type: none;
   display: inline-block;
-  
+}
+
+#leftImage {
+  width: 300px;
+  margin-left: -40px;
+}
+
+#centerImage {
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 11px;
+}
+
+#rightImage {
+  width: 300px;
+  margin-left: 10px;
 }
 
 section {
@@ -56,7 +72,6 @@ main div {
 }
 
 #480img {
-  background-color: green;
   width: 50%;
   float: left;
 }
@@ -74,12 +89,20 @@ main p {
   height: 300px;  
 }
 
+
 button {
   margin-left: 30px;
   width: 220px;
   height: 30px;
   font-size: 18px;
   border-radius: 8px;
+  color: white;
+  transition: 350ms;
+  background-color: black;
+}
+
+button:hover {
+  background-color: green;
 }
 
 
