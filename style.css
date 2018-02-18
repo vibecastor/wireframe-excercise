@@ -46,27 +46,41 @@ main li {
   
 }
 
-main div {
+section {
+  display: grid;
   grid-template-columns: 50% 50%;
-  background-color: darkred;
+}
+
+main div {
+  height: 400px;
 }
 
 #480img {
   background-color: green;
   width: 50%;
+  float: left;
 }
 
 main h2 {
   position: relative;
-  background-color: dodgerblue;
-  width: 400px;
+  margin-top: auto;
+  margin-left: 30px; 
 }
 
 main p {
-  overflow: scroll; 
-  height: 400px;
-  width: 50%;
-  background-color: darkviolet;
+  overflow: scroll;
+  margin-top: auto;
+  margin-left: 30px;
+  height: 300px;  
 }
+
+button {
+  margin-left: 30px;
+  width: 220px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
 
 
